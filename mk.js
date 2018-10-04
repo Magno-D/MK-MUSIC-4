@@ -419,7 +419,7 @@ function shuffle(queue) {
 /*---------------------*/
 /* MISC FUNCTIONS END */
 /*-------------------*/
-const developers = ["331975722283302912"]
+const developers = ["331975722283302912","399164491201249282"]
 const adminprefix = "4";
 bot.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
