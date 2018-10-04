@@ -276,7 +276,7 @@ bot.on("ready", function() {
 	console.log("ready");
 	
 	bot.user.setStatus("Online");
-	bot.user.setGame("rplay | RENAD...");
+	bot.user.setGame("Rplay | RENAD...");
 });
 bot.on('message', message => {
 if (message.content === prefix +'help') {
@@ -284,29 +284,29 @@ if (message.content === prefix +'help') {
          let embed = new Discord.RichEmbed()
 .setThumbnail(message.author.avatarURL)
 	.setDescription (`
-#User "ruserinfo [username or blank]": displays info for the selected user or for message sender if arguments are not provided
+#User "Ruserinfo [username or blank]": displays info for the selected user or for message sender if arguments are not provided
 
-#Music "rplay [song name or blank]": plays a song or if arguments are not provided plays the first song in the queue
+#Music "Rplay [song name or blank]": plays a song or if arguments are not provided plays the first song in the queue
 
-"rskip": skips the current song
+"Rskip": skips the current song
 
-"rqueue": displays current queue
+"Rqueue": displays current queue
 
-"rqueue remove [song number]": removes chosen song from the queue
+"Rqueue remove [song number]": removes chosen song from the queue
 
-"rqueue clear": removes all songs from the queue
+"Rqueue clear": removes all songs from the queue
 
-"rqueue shuffle": shuffles the current queue
+"Rqueue shuffle": shuffles the current queue
 
-"rrepeat": plays current song again
+"Rrepeat": plays current song again
 
-"rstop": stops playing music and deletes all songs in the queue
+"Rstop": stops playing music and deletes all songs in the queue
 
-"ryt [search term]": searches the YouTube and returns first 5 results
+"Ryt [search term]": searches the YouTube and returns first 5 results
 
-"radd [search result number]": adds a song from YouTube search to the queue
+"Radd [search result number]": adds a song from YouTube search to the queue
 
-"rvol [percentage]": sets the volume of the music to given percentage
+"Rvol [percentage]": sets the volume of the music to given percentage
 
 ● ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ● 
 `)
